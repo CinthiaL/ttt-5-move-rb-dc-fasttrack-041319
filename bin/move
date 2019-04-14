@@ -8,9 +8,9 @@ input = gets.strip
 
 value = "X"
 board = [" ", " ", " "," "," ", " "," "," "," "]
-array = board 
+
 index = input_to_index(input)
-move(array, index, value)
+move(board, index, value)
 
 # Code your CLI Here
 display_board(board)
